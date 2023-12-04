@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('C:\Users\adria\OneDrive\Dokumen\Realestate.csv')
+df = pd.read_csv('C:/Users/adria/OneDrive/Dokumen/Realestate.csv')
 df.head()
 
 # Fungsi untuk membaca data dari file CSV
