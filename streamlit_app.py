@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('C:\Users\adria\OneDrive\Dokumen\Realestate.csv')
 df.head()
 
-import csv
-
 # Fungsi untuk membaca data dari file CSV
 def baca_data_csv(nama_file):
     with open(nama_file, 'r', newline='') as file_csv:
