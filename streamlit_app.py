@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('C:/Users/adria/OneDrive/Dokumen/Realestate.csv')
+df = pd.read_csv('Realestate.csv')
 df.head()
 
 import csv
